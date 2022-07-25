@@ -421,6 +421,16 @@ img {
     margin-top: 6px;
 }
 
+.botton_download{
+    display: flexbox;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    justify-content: flex-end;
+}
+
 
 /*======================== ABOUT =======================*/
 
@@ -466,8 +476,10 @@ img {
 }
 
 .about__buttons {
-    display: flex;
+    display: flexbox;
     justify-content: center;
+    margin-top: 4rem;
+    margin-left: 18rem;
 }
 
 
