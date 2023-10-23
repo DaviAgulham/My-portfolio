@@ -428,14 +428,14 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-    justify-content: flex-end;
+    margin-left: 38%;
 }
 
 
 /*======================== ABOUT =======================*/
 
 .about {
-    margin-top: -5rem;
+    margin-top: -10rem;
 }
 
 .about__img {
@@ -479,7 +479,7 @@ img {
     display: flexbox;
     justify-content: center;
     margin-top: 4rem;
-    margin-left: 18rem;
+    justify-items: center;
 }
 
 
@@ -553,7 +553,7 @@ img {
 }
 
 .skills__php {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__csharp {
@@ -577,27 +577,31 @@ img {
 }
 
 .skills__mysql {
-    width: 60%;
+    width: 80%;
 }
 
 .skills__mongo {
-    width: 50%;
+    width: 80%;
 }
 
 .skills__html {
-    width: 75%;
+    width: 100%;
 }
 
 .skills__css {
-    width: 55%;
+    width: 90%;
 }
 
 .skills__js {
-    width: 50%;
+    width: 80%;
 }
 
 .skills__bootstrap {
-    width: 40%;
+    width: 70%;
+}
+
+.skills__bootstraps {
+    width: 90%;
 }
 
 .skills__close .skills__list {
@@ -645,17 +649,33 @@ img {
     margin-left: 5rem;
 }
 
+.qualification__title__left {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-left: 20%;
+}
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
+.qualification__subtitle__left {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+    margin-left: 20%;
+}
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
 }
 
+.qualification__calendar__left {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light);
+    margin-left: 20%;
+}
 .qualification__calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
@@ -678,6 +698,9 @@ img {
     transform: translate(6px, -7px);
 }
 
+.section.qualification.section {
+    margin-top: -9rem;
+}
 
 /*======================== SERVICES =======================*/
 
@@ -1010,6 +1033,9 @@ img {
     .testimonial__data,
     .testimonial__description {
         text-align: center;
+    }
+    .botton_download{
+        margin-left: 27%;
     }
 }
 
